@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bottle: #063B2E;
+  --color-green-secondary: #0C4B3A;
+  --color-forest: #092F26;
+  --color-accent-green: #176B50;
+  --color-ivory: #F2F5EF;
+  --color-champagne: #D9C58B;
+}
+
+:root {
+  font-family: "Nunito", sans-serif;
+  color: #FFFFFF;
+  background-color: #063B2E;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #063B2E;
+}
+
+* {
+  box-sizing: border-box;
+}
